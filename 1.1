@@ -1,0 +1,28 @@
+# Pr1_lab6
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js">
+</script>
+<script>
+$(document).ready(function () {
+$("#but1").click(function () {
+$(".test").hide();
+});
+$("#but2").click(function () {
+$(".test").show();
+});
+});
+</script>
+</head>
+<body>
+<h2> Класс MsoNormal.</h2>
+<p class="test">  первая страница.</p>
+<p>  вторая страница.</p>
+<p class="test">  третья страница.</p>
+<p>  четвертая страница.</p>
+<p class="test">Пятая страница.</p>
+<button id="but1">Скрытие</button>
+<button id="but2">Показ скрытых элементов</button>
+</body>
+</html>
