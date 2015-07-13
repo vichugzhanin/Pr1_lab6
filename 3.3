@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+<script>
+$(document).ready(function () {
+   $("button").click(function () {
+      var i=1;
+      do{
+    $(".p2").fadeToggle();
+      i++;
+   if(i%2==0){
+   $(".p1").fadeToggle();}
+   }
+   while(i<2000)
+   $(".p1").hide();
+ });
+});
+</script>
+
+</head>
+<body>
+<p class="p1"style="display:none">1</p>
+<p class="p2" style="display:none">2</p>
+<p class="p1"style="display:none">1</p>
+<p class="p2" style="display:none">2</p>
+<p class="p1"style="display:none">1</p>
+<p class="p2" style="display:none">2</p>
+<p class="p1"style="display:none">1</p>
+<p class="p2" style="display:none">2</p>
+<p class="p1"style="display:none">1</p>
+<p class="p2" style="display:none">2</p>
+<p class="p1"style="display:none">1</p>
+<p class="p2" style="display:none">2</p>
+</body>
+<br><br><button>Появлениеи исчезновение</button>
+</html
+
+<div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+<div id="div2" style="width:80px;height:80px;display:none;background-color:blue;"></div><br>
+<p></p>
+<button id="but1">нажми</button>
+<button id="but2">стоп</button>
+
+</body>
+
+</html>
