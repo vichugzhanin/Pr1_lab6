@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="http://code.jquery.com/jquery-latest.js">
+</script>
+<script>
+
+$(document).ready(function ()
+ {
+   $("#but1").click(function () 
+     {
+       $("tr:even").hide();
+     });
+   $("#but2").click(function ()
+     {
+       $("tr:even").show();
+     });
+ });
+</script>
+
+</head>
+<body>
+
+<button id="but1">Убрать</button>
+<button id="but2">Восстановить</button>
+<table border="1">
+ <tr>
+    <th>Марка</th>
+    <th>Модель</th>
+  </tr>
+ <tr>
+    <th>BMW</th>
+    <th>X5M</th>
+  </tr>
+ <tr>
+    <th>AUDI</th>
+    <th>Q7</th>
+  </tr>
+ <tr>
+    <th>FORD</th>
+    <th>FOCUS</th>
+  </tr>
+ <tr>
+    <th>SKODA</th>
+    <th>OCTAVIA RS</th>
+  </tr>
+ <tr>
+    <th>NISSAN</th>
+    <th>MURANO</th>
+  </tr>
+
+</body>
+</html>
