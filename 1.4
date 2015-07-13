@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="http://code.jquery.com/jquery-latest.js">
+</script>
+<script>
+
+$(document).ready(function ()
+ {
+   $(".but1").click(function () 
+     {
+       $("p[align|='center']").hide();
+     });
+   $(".but2").click(function ()
+     {
+       $("p[align|='center']").show();
+     });
+ });
+</script>
+
+</head>
+<body>
+
+<button class="but1">Скрытие</button>
+<button class="but2">Отображение</button>
+
+<p align="not center">Россия</p>
+<p align="center">Америка</p>
+<p align="not center">Китай</p>
+
+</body>
+</html>
